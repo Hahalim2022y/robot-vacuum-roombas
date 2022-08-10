@@ -1,0 +1,8 @@
+prefix=/home/ubuntu123/333/devel
+
+Name: cartographer_ros_msgs
+Description: Description of cartographer_ros_msgs
+Version: 1.0.0
+Cflags: -I/home/ubuntu123/333/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

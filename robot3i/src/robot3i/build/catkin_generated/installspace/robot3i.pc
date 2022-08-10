@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: robot3i
+Description: Description of robot3i
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

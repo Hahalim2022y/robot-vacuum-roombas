@@ -1,0 +1,9 @@
+<launch>
+  <master auto="start"/>
+  <node name="joy_node" pkg="joy" type="joy_node" output="screen">
+      <param name="dev" value="/dev/input/js0" />
+    </node>
+  <node pkg="robot3i" type="robot3i_node" name="robot3i_node" output="screen"  launch-prefix="bash -c 'sleep 2; $0 $@'" >
+    </node>
+  <include file= "/home/ubuntu123/222/src/undistortion/lidar_undistortion_2d-master/launch/lidar_undistortion_2d.launch"/>
+</launch>

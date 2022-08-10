@@ -1,0 +1,8 @@
+prefix=/home/jiangyu/catkin_jiangyu/src/rebot3i/build/devel
+
+Name: robot3i
+Description: Description of robot3i
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

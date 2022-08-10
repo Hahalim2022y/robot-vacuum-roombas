@@ -1,0 +1,38 @@
+<launch>
+    <arg name="scan_topic" default="horizontal_laser_2d"/>
+    <!--<param name="use_sim_time" value="true"/>-->
+    <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
+      <param name="base_frame" value="base_link"/>
+      <param name="odom_frame" value="odom"/>        
+      <param name="map_update_interval" value="3.0"/> <!--(float，默认值：5.0)地图更新的间隔的时间长度（以秒为单位）降低该数量更频繁地更新占用网格，代价是更大的计算负荷-->
+      
+      <param name="maxUrange" value="10.0"/> <!--（float，默认值：80.0）激光的最大可用范围 光束被裁剪为该值-->
+      <param name="sigma" value="0.05"/> <!--（float，默认值：0.05）贪心终点匹配使用的sigma-->
+      <param name="kernelSize" value="1"/> <!--（int，default：1）内核中要查找一个对应关系-->
+      <param name="lstep" value="0.05"/> <!--（float，default：0.05)翻译的优化步骤-->
+      <param name="astep" value="0.05"/> <!--（float，默认值：0.05）旋转中的优化步骤-->
+      <param name="iterations" value="5"/> <!--（int，default：5）扫描匹配器的迭代次数-->
+      <param name="lsigma" value="0.075"/> <!--（float，默认值：0.075）用于计算的波束可能性的sigma-->
+      <param name="ogain" value="3.0"/> <!--（float，默认值：3.0）在评估可能性时使用的增益，用于平滑重采样效果-->
+      <param name="lskip" value="0"/> <!--（int，默认值：0）每次扫描中要跳过的光束数-->
+      <param name="srr" value="0.1"/> <!--（float，默认值：0.1）作为平移函数的平移误差（rho / rho）-->
+      <param name="srt" value="0.2"/> <!--（float，默认值：0.2）作为旋转的函数的平移误差（rho / theta）-->
+      <param name="str" value="0.1"/> <!--（float，默认值：0.1）作为平移函数的旋转中的测量误差（θ/ rho-->
+      <param name="stt" value="0.2"/> <!--（float，默认值：0.2）作为旋转的函数的旋转中的测量误差（θ/θ-->
+      <param name="linearUpdate" value="1.0"/> <!--（float，default：1.0）每次机器人翻译远处时，处理一次扫描-->
+      <param name="angularUpdate" value="0.5"/> <!--（float，default：0.5）每次机器人旋转这么远时处理一次扫描-->
+      <param name="temporalUpdate" value="-1.0"/> <!--（float，default：-1.0）如果上次扫描处理的时间早于更新时间（秒），则处理扫描。小于零的值将关闭基于时间的更新-->
+      <param name="resampleThreshold" value="0.5"/>  <!--（float，default：0.5）基于Neff的重采样阈值-->
+      <param name="particles" value="100"/> <!--（int，默认值：30）过滤器中的粒子数-->
+      <param name="xmin" value="-5.0"/> <!--（float，默认值：-100.0）初始地图大小X最小值-->
+      <param name="ymin" value="-5.0"/>
+      <param name="xmax" value="5.0"/>
+      <param name="ymax" value="5.0"/>
+      <param name="delta" value="0.03"/> <!--（float，默认值：0.05）地图的分辨率-->
+      <param name="llsamplerange" value="0.01"/> <!--（float，默认值：0.01）可能性的平移采样范围-->
+      <param name="llsamplestep" value="0.01"/> <!--（float，默认值：0.01）可能性的平移采样步骤-->
+      <param name="lasamplerange" value="0.005"/> <!--（float，默认值：0.005）角度采样范围的可能性-->
+      <param name="lasamplestep" value="0.005"/> <!--（float，默认值：0.005）角度采样步骤的可能性-->
+      <remap from="scan" to="$(arg scan_topic)"/> <!---->
+    </node>
+</launch>

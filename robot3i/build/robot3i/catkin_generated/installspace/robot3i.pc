@@ -1,0 +1,8 @@
+prefix=/home/ubuntu123/333/install
+
+Name: robot3i
+Description: Description of robot3i
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

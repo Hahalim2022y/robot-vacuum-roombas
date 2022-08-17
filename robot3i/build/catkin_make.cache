@@ -1,0 +1,2 @@
+cartographer_ros/cartographer_ros:cartographer_ros/cartographer_ros_msgs:cartographer_ros/cartographer_rviz:joy:map_server:myurdf:nav_demo:robot3i:slam_gmapping/gmapping:slam_gmapping/slam_gmapping:teleop_twist_keyboard-master:undistortion/lidar_undistortion_2d-master
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu123/333/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu123/333/install -G Unix Makefiles

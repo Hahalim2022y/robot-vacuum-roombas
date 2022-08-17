@@ -1,0 +1,8 @@
+prefix=/home/ubuntu123/333/install
+
+Name: myurdf
+Description: Description of myurdf
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

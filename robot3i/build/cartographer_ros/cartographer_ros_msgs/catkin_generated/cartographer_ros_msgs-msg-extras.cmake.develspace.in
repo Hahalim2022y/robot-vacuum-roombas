@@ -1,0 +1,2 @@
+set(cartographer_ros_msgs_MESSAGE_FILES "/home/ubuntu123/333/src/cartographer_ros/cartographer_ros_msgs/msg/SubmapList.msg;/home/ubuntu123/333/src/cartographer_ros/cartographer_ros_msgs/msg/TrajectorySubmapList.msg;/home/ubuntu123/333/src/cartographer_ros/cartographer_ros_msgs/msg/SubmapEntry.msg")
+set(cartographer_ros_msgs_SERVICE_FILES "/home/ubuntu123/333/src/cartographer_ros/cartographer_ros_msgs/srv/SubmapQuery.srv;/home/ubuntu123/333/src/cartographer_ros/cartographer_ros_msgs/srv/FinishTrajectory.srv")

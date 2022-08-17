@@ -1,0 +1,11 @@
+<launch>
+    <!-- 启动rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" />
+    <!--<node pkg="joint_state_publisher" name="joint_state_publisher" type="joint_state_publisher" />-->
+    <!--<node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" />-->
+    <!-- 地图服务 -->
+    <!-- 启动AMCL节点 -->
+    <!--<include file="$(find nav_demo)/launch/amcl.launch" />-->
+    <!-- 运行move_base节点 -->
+    <include file="$(find nav_demo)/launch/movebase.launch" />
+</launch>

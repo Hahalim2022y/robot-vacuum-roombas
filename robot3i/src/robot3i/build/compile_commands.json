@@ -1,0 +1,121 @@
+[
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/ros_cmdbase_test.dir/ros_cmdbase_test.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/ros_cmdbase_test.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/ros_cmdbase_test.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/ros_cmdbase_test.dir/src/CommPacketV3.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/CommPacketV3.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/CommPacketV3.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/ros_cmdbase_test.dir/src/LidarCommPacket.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/LidarCommPacket.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/LidarCommPacket.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/ros_cmdbase_test.dir/src/TCPSocketClient.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/TCPSocketClient.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/TCPSocketClient.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/Robot_demo1.dir/Robot_demo1.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/Robot_demo1.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/Robot_demo1.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/Robot_demo1.dir/src/CommPacketV3.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/CommPacketV3.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/CommPacketV3.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/Robot_demo1.dir/src/LidarCommPacket.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/LidarCommPacket.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/LidarCommPacket.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/Robot_demo1.dir/src/TCPSocketClient.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/TCPSocketClient.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/TCPSocketClient.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/robot3i_node.dir/Robot_ros.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/Robot_ros.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/Robot_ros.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/robot3i_node.dir/src/CommPacketV3.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/CommPacketV3.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/CommPacketV3.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/robot3i_node.dir/src/LidarCommPacket.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/LidarCommPacket.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/LidarCommPacket.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/robot3i_node.dir/src/TCPSocketClient.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/TCPSocketClient.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/TCPSocketClient.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/Robot_demo2.dir/Robot_demo2.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/Robot_demo2.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/Robot_demo2.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/Robot_demo2.dir/src/CommPacketV3.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/CommPacketV3.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/CommPacketV3.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/Robot_demo2.dir/src/LidarCommPacket.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/LidarCommPacket.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/LidarCommPacket.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot3i\\\" -I../inc -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/Robot_demo2.dir/src/TCPSocketClient.cpp.o -c /home/jiangyu/catkin_jiangyu/src/rebot3i/src/TCPSocketClient.cpp",
+  "file": "/home/jiangyu/catkin_jiangyu/src/rebot3i/src/TCPSocketClient.cpp"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -DGTEST_HAS_PTHREAD=1 -std=c++11 -o gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -DGTEST_HAS_PTHREAD=1 -std=c++11 -o gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -DGTEST_HAS_PTHREAD=1 -std=c++11 -o gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+
+{
+  "directory": "/home/jiangyu/catkin_jiangyu/src/rebot3i/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -std=c++11 -o gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+}
+]

@@ -1,0 +1,12 @@
+<launch>
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen" clear_params="true">
+    <rosparam file="/home/ubuntu123/222/src/nav_demo/launch/config/mrobot/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="/home/ubuntu123/222/src/nav_demo/launch/config/mrobot/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="/home/ubuntu123/222/src/nav_demo/launch/config/mrobot/local_costmap_params.yaml" command="load" />
+    <rosparam file="/home/ubuntu123/222/src/nav_demo/launch/config/mrobot/global_costmap_params.yaml" command="load" />
+    <rosparam file="/home/ubuntu123/222/src/nav_demo/launch/config/mrobot/base_local_planner_params.yaml" command="load" />
+  </node>
+  
+</launch>
+/home/ubuntu123/222/src/nav_demo/launch/config/mrobot

@@ -1,0 +1,8 @@
+prefix=/home/ubuntu123/333/install
+
+Name: lidar_undistortion_2d
+Description: Description of lidar_undistortion_2d
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

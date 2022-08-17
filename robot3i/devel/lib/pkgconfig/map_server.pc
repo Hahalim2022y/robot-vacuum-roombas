@@ -1,0 +1,8 @@
+prefix=/home/ubuntu123/333/devel
+
+Name: map_server
+Description: Description of map_server
+Version: 1.12.13
+Cflags: -I/home/ubuntu123/333/src/map_server/include
+Libs: -L${prefix}/lib -limage_loader
+Requires: roscpp tf nav_msgs

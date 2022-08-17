@@ -1,0 +1,7 @@
+image: /home/ubuntu123/333/src/nav_demo/map/nav.pgm
+resolution: 0.050000
+origin: [-6.047331, -8.520997, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

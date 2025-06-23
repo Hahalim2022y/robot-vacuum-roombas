@@ -15,10 +15,9 @@
   ./testing
 （g++ task1.cpp -o task1 `pkg-config --cflags --libs opencv`）
 
-
 <br />2.roslaunch cartographer_ros demo_revo_lds.launch （谷歌算法建图，加载机器人模型）
 <br />3.roslaunch nav_demo map_saver.launch     (=rosrun map_server map_saver -f ~/nav_demo/map/nav 注意保存地图的路径和地图的名字)
 <br />4.cd opencv-3.3.1/test 1/build                 (opencv识别图片并输出中心坐标)
   ./testing
 <br />5.roslaunch nav_demo amcl_test.launch        (在保存的地图中定位)
-<br />7.roslaunch robot3i move_base.launch         (导航)
+<br />6.roslaunch robot3i move_base.launch         (导航)
